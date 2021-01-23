@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "online-course-helper",
   "description": "🐟",
   "version": "0.0.2",
@@ -9,7 +9,7 @@
     "dist-win64": "electron-builder --win --x64",
     "dist-win32": "electron-builder --win --ia32"
   },
-  "author": "toubutu",
+  "author": "yujiang",
   "dependencies": {
     "fs": "0.0.1-security",
     "node-cron": "^2.0.3",
@@ -21,7 +21,7 @@
     "electron-builder": "^22.6.0"
   },
   "build": {
-    "appId": "priv.toubutu.onlinecourse",
+    "appId": "help.TXedu.dev",
     "productName": "腾讯课堂助手",
     "directories": {
       "output": "./dist"
