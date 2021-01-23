@@ -44,14 +44,14 @@ jobs:
       - name: build windows app
         if: matrix.os == 'windows-2019'
         run: |
-          npm run electron-builder --win --x64
+          npm run dist-win64
         env:
           GH_TOKEN: 17455ce624276b658508d527720893aee3bac973
 
       - name: build mac app
         if: matrix.os == 'macos-10.15'
         run: |
-          npm run electron-builder --mac
+          npm run dist-mac
         env:
           GH_TOKEN: 17455ce624276b658508d527720893aee3bac973
 
